@@ -1,0 +1,84 @@
+
+/* Page Background with Light Wallpaper */
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* Light background texture */
+    background-color: #f5f8fa;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 2rem;
+}
+
+/* Professional and Polished Navbar Styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 1rem 2rem;
+}
+.navbar-brand {
+    color: #0056b3 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color: #555 !important;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.nav-link:hover {
+    color: #0056b3 !important;
+    transform: translateY(-2px);
+}
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-toggler-icon {
+    filter: brightness(0.4);
+}
+
+/* Centered and Styled Introduction Text */
+.intro-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 2rem;
+}
+
+/* Centered Square Image Styling with Shading */
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.img-container img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for shading effect */
+}
+
+/* Side Heading Styling */
+.side-heading {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+/* Paragraph Styling for Better Readability */
+p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+/* Highlight Active Link */
+.nav-item .active {
+    color: #0056b3 !important; /* Change this color as desired */
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3; /* Adds an underline to the active link */
+}
