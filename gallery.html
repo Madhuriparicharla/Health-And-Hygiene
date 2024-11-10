@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Images Gallery</title>
+    <style>
+        /* Center the container */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* This defines the gap between the images */
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .h1{
+            font-size: 1.9rem;
+            color: #007bff;
+            font-weight: bold;
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+        
+        /* Image styling */
+        .gallery img {
+            width: 200px; /* Set the desired width */
+            height: auto;
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+            transition: transform 0.3s ease; /* Smooth transition */
+        }
+
+        /* Hover effect */
+        .gallery img:hover {
+            transform: scale(1.05); /* Slightly enlarge image on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="h1">Image Gallery</h1>
+    <div class="gallery">
+        <img src="assests/s1.jpg" alt="Image 1">
+        <img src="assests/s2.jpg" alt="Image 2">
+        <img src="assests/s3.jpg" alt="Image 3">
+        <img src="assests/s4.jpg" alt="Image 4">
+    </div>
+
+</body>
+</html>
